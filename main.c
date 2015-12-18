@@ -59,7 +59,7 @@ int main(int argc, char **argv) {
 		printf("%ld", data.lineCount);
 	}
 
-	if ((data.printChar == 1 && data.printLines == 1) || data.printWords == 1)
+	if (data.printWords == 1)
 	{
 		if (data.printLines == 1)
 		{
